@@ -7,7 +7,7 @@ def calculate_z(maxiter, zs, cs, output):
         z = zs[i]
         c = cs[i]
         output[i] = 0
-        while output[i] < maxiter and abs(z) < 4:
+        while output[i] < maxiter and abs(z) < 2:
             z = z * z + c
             output[i] += 1
     return output
