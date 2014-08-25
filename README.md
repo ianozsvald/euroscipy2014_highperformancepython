@@ -1,4 +1,10 @@
 
+To get this code
+================
+
+Clone this repository
+
+    $ git clone git@github.com:ianozsvald/euroscipy2014_highperformancepython.git
 
 Installation
 ============

@@ -86,7 +86,7 @@ def calc_pure_python(draw_output, desired_width, max_iterations):
     output = calculate_z_serial_purepython(max_iterations, zs, cs)
     end_time = time.time()
     secs = end_time - start_time
-    print calculate_z_serial_purepython.func_name + " took", secs, "seconds"
+    print "took", secs, "seconds"
 
     assert sum(output) == 33219980  # this sum is expected for 1000^2 grid with 300 iterations
 
