@@ -1,0 +1,5 @@
+
+
+Running $ kernprof.py -l -v julia_lineprofiler.py with max_iterations=100 takes 85 seconds. Running it with max_iterations=300 takes 107 seconds.
+
+$ python -m memory_profiler julia_memoryprofiler.py on max_width=100 takes 99 seconds.
