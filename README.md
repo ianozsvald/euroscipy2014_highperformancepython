@@ -12,6 +12,18 @@ Note that you might have an error with libjpeg on Ubuntu machines, this is noted
 
     Bug noted here: https://groups.google.com/a/continuum.io/forum/#!msg/anaconda/L28s5-qbFL8/oHaHUInZHLAJ
 
+You'll want line_profiler and memory_profiler if you want to replicate the profiling:
+
+    $ pip install memory_profiler
+    $ pip install psutil
+
+    # Get line_profiler's source from here
+    # https://pypi.python.org/packages/source/l/line_profiler/line_profiler-1.0b3.tar.gz#md5=63fc2a757192eb5e577559cfdff5b831
+    $ wget https://pypi.python.org/packages/source/l/line_profiler/line_profiler-1.0b3.tar.gz#md5=63fc2a757192eb5e577559cfdff5b831
+    $ tar -xvf line_profiler-1.0b3.tar.gz
+    $ python setup.py install
+
 Note for Ian (teacher), use virtualenv rather than Anaconda to display the Pillow output:
 
     $ . ~/workspace/high_performance_python_book/high_performance_python_orielly/shared_github/raw_code/ian/envian/bin/activate
+
